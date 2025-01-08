@@ -1,0 +1,20 @@
+[
+        {
+        "cate_name": "swimming_cate_name",
+        "devices":
+            [
+                {
+                    "name": "Holoswim2(s)",
+                    "image": "swimming_1",
+                    "bleName": "Holoswim2"
+
+                },
+                {
+                    "name": "Holoswim 2 Pro",
+                    "image": "swimming_1",
+                    "bleName": "Holoswim 2 Pro"
+
+                }
+            ]
+        }
+]

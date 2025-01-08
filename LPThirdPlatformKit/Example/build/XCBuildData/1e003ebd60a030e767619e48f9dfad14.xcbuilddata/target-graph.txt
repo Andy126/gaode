@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+LPThirdPlatformKit in Pods, no dependencies
+Pods-LPThirdPlatformKit_Example in Pods, depends on:
+LPThirdPlatformKit in Pods (explicit)
+Pods-LPThirdPlatformKit_Tests in Pods, depends on:
+Pods-LPThirdPlatformKit_Example in Pods (explicit)

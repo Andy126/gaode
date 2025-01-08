@@ -1,0 +1,58 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '13.0'
+inhibit_all_warnings!
+use_frameworks!
+
+# 定义方法：pod 项目相关模块（本地模块）
+def pod_location
+
+    
+  pod 'LPThirdPlatformKit', :path => '../LPThirdPlatformKit'
+
+end
+
+# 定义方法：pod 三方框架
+def pod_install
+  # ui
+end
+
+
+# 多个target pod 的库一致时，方式一：
+# 使用关键字abstract_target，使用多个target共享同一个pod，这里是common_pod
+abstract_target 'common_pod' do  #这里的common_pod在实际targets中不存在，是虚拟
+  #调用方法
+  pod_location
+  pod_install
+  
+  target 'hl_sport_ios' do
+    
+  end
+  
+  target 'hl_sport_ios_test' do
+    
+  end
+  
+  # Hooks 钩子函数: 允许我们在项目被写入硬盘之前做一些事情，each 遍历迭代
+  post_install do |installer|
+   
+    # 1. 遍历项目中所有target
+    installer.pods_project.targets.each do |target|
+      # 2. 遍历build_configurations
+      target.build_configurations.each do |config|
+        #3、动态配置 环境变量 xcconfig，在pod install 执行后设置成功
+        #这里设置的话，代表所有的pods对应的设置都会生效，这里代表整个Cocoapods工作区（Pods）全局设置
+        
+        # Needed for building for simulator on M1 Macs
+        config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+        config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+        # Exclued Architectures 剔除模拟器SDK架构，设置iOS Simulator SDK 支持 arm64
+        config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64'
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+
+      end
+    end
+  end
+  
+end
+

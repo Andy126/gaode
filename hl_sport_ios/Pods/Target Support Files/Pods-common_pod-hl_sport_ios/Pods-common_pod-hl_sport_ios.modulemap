@@ -1,0 +1,6 @@
+framework module Pods_common_pod_hl_sport_ios {
+  umbrella header "Pods-common_pod-hl_sport_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

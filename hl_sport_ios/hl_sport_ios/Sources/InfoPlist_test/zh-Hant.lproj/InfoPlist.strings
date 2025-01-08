@@ -1,0 +1,21 @@
+/* 
+  InfoPlist.strings
+  hl_sport_ios
+
+  Created by 西柚 on 2022/12/17.
+  
+*/
+
+"CFBundleName" = "Holosport(beta)";
+"CFBundleDisplayName" = "Holosport(beta)";
+"NSCameraUsageDescription" = "「Holosport」 需要訪問您的相機用於拍攝照片等功能";
+"NSPhotoLibraryUsageDescription" = "「Holosport」 需要訪問您的相冊用於分享，更換頭像等功能";
+"NSPhotoLibraryAddUsageDescription" = "「Holosport」 需要訪問您的圖片以及保存遊泳數據，如果不允許，將無法保存遊泳數據/保存圖片";
+"NSContactsUsageDescription" = "「Holosport」 需要獲取您的電話，用於來電提醒的功能";
+"NSLocationWhenInUseUsageDescription" = "「Holosport」需要位置權限，用於位置標記、位置分享等服務";
+"NSBluetoothAlwaysUsageDescription" = "「Holosport」 需要使用您的藍牙用於設備連接等功能";
+"NSBluetoothPeripheralUsageDescription" = "「Holosport」 需要使用您的藍牙用於設備連接等功能";
+"NSMicrophoneUsageDescription" = "「Holosport」 需要訪問您的麦克风用於拍攝照片等功能";
+"NSMotionUsageDescription" = "「Holosport」想要存取並更新你的健康數據";
+"NSHealthUpdateUsageDescription" = "「Holosport」想要存取並更新你的健康數據";
+"NSHealthShareUsageDescription" = "「Holosport」想要存取並更新你的健康數據";

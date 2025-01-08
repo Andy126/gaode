@@ -1,0 +1,6 @@
+framework module LPThirdPlatformKit {
+  umbrella header "LPThirdPlatformKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

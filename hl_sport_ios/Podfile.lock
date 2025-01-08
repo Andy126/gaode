@@ -1,0 +1,23 @@
+PODS:
+  - LPThirdPlatformKit (0.1.0):
+    - LPThirdPlatformKit/AMMapSDK (= 0.1.0)
+    - LPThirdPlatformKit/Auth (= 0.1.0)
+  - LPThirdPlatformKit/AMMapSDK (0.1.0)
+  - LPThirdPlatformKit/Auth (0.1.0):
+    - LPThirdPlatformKit/Auth/Map (= 0.1.0)
+  - LPThirdPlatformKit/Auth/Map (0.1.0):
+    - LPThirdPlatformKit/AMMapSDK
+
+DEPENDENCIES:
+  - LPThirdPlatformKit (from `../LPThirdPlatformKit`)
+
+EXTERNAL SOURCES:
+  LPThirdPlatformKit:
+    :path: "../LPThirdPlatformKit"
+
+SPEC CHECKSUMS:
+  LPThirdPlatformKit: 103d072fc0223f6ede763d8bcdc388fc0e73cda5
+
+PODFILE CHECKSUM: 9fb213dcc881d2521c66cf899d618b145ee682fa
+
+COCOAPODS: 1.14.3

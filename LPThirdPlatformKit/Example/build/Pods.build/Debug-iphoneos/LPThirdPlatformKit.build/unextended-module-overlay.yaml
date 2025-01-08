@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/gl/Desktop/光粒/LPThirdPlatformKit/Example/build/Debug-iphoneos/LPThirdPlatformKit/LPThirdPlatformKit.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/gl/Desktop/光粒/LPThirdPlatformKit/Example/build/Pods.build/Debug-iphoneos/LPThirdPlatformKit.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/gl/Desktop/光粒/LPThirdPlatformKit/Example/build/Debug-iphoneos/LPThirdPlatformKit/LPThirdPlatformKit.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "LPThirdPlatformKit-Swift.h",
+      'external-contents': "/Users/gl/Desktop/光粒/LPThirdPlatformKit/Example/build/Pods.build/Debug-iphoneos/LPThirdPlatformKit.build/unextended-interface-header.h",
+    }]
+    }]
+}

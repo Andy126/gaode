@@ -1,0 +1,12 @@
+{
+    "tab": {
+        "select": ["home", "sportRing", "device", "find","mine"],
+        "normal": ["home01", "sportRing01", "device01", "find01","mine01"],
+        "title": ["tabbar_1", "tabbar_2", "devicename", "tabbar_3", "tabbar_4"]
+
+    },
+    "tabColor": {
+        "dark": "#FFFFFF",
+        "light": "#64FF00"
+    }
+}

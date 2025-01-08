@@ -1,0 +1,16 @@
+PODS:
+  - LPThirdPlatformKit (0.1.0)
+
+DEPENDENCIES:
+  - LPThirdPlatformKit (from `../`)
+
+EXTERNAL SOURCES:
+  LPThirdPlatformKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LPThirdPlatformKit: b1a63cf0256e552dbb5edc5070e35120bef81636
+
+PODFILE CHECKSUM: 3feef9b3f86c543d54ade352f2d211712c0c6f7d
+
+COCOAPODS: 1.11.3

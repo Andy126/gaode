@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>hl_sport_ios.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>hl_sport_ios_test.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>hl_sport_watch Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>99</integer>
+		</dict>
+		<key>hl_sport_watch_test Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>98</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>675533A92BD2621700302452</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>675533B82BD2621900302452</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>675533C22BD2621900302452</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6766D46F29DAAA5D00A435E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B8C19DAF29DAB70900B0C661</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

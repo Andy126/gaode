@@ -1,0 +1,21 @@
+/* 
+  InfoPlist.strings
+  hl_sport_ios
+
+  Created by 西柚 on 2022/12/17.
+  
+*/
+
+"CFBundleName" = "Holosport";
+"CFBundleDisplayName" = "Holosport";
+"NSCameraUsageDescription" = "Allow “Holosport”  to access camera\n For functions such as taking pictures、Posting, you can reject,it won’t influence the use of other features";
+"NSPhotoLibraryUsageDescription" = "Allow “Holosport”  to access albums\n For sharing, changing avatars and other functions, you can reject,it won’t influence the use of other features";
+"NSPhotoLibraryAddUsageDescription" =" “Holosport”  requires location permissions and is used for services such as location marking and location sharing.";
+"NSContactsUsageDescription" = "Allow “Holosport” to access calls log for the function of incoming call reminder,you can reject,it won’t influence the use of other features";
+"NSLocationWhenInUseUsageDescription" = "「“Holosport” needs your location\nProvide you with services such as location sharing, location marking, Bluetooth pairing and search, and use it for Holosport security, even when the app is closed or not in use and is also used to recommending information that may be of interest to you ";
+"NSBluetoothAlwaysUsageDescription" = "「Holosport」 needs to enable Bluetooth to discover and add devices";
+"NSBluetoothPeripheralUsageDescription" = "「Holosport」 needs to enable Bluetooth to discover and add devices";
+"NSMicrophoneUsageDescription" = "Allow “Holosport”  to access microphone\n For functions such as taking pictures、Posting, you can reject,it won’t influence the use of other features";
+"NSMotionUsageDescription" = "「Holosport」wants to access and update your health data";
+"NSHealthUpdateUsageDescription" = "「Holosport」wants to access and update your health data";
+"NSHealthShareUsageDescription" = "「Holosport」wants to access and update your health data";

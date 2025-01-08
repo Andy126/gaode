@@ -1,0 +1,11 @@
+framework module LPThirdPlatformKit {
+  umbrella header "LPThirdPlatformKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module LPThirdPlatformKit.Swift {
+  header "LPThirdPlatformKit-Swift.h"
+  requires objc
+}

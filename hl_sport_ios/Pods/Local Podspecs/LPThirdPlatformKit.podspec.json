@@ -1,0 +1,73 @@
+{
+  "name": "LPThirdPlatformKit",
+  "version": "0.1.0",
+  "summary": "A short description of LPThirdPlatformKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://10.0.7.12/soft/ios-modules/glithirdplatformkit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanshengle": "1316838962@qq.com"
+  },
+  "source": {
+    "git": "http://10.0.7.12/soft/ios-modules/glithirdplatformkit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "LPThirdPlatformKit/Classes/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "resource_bundles": {
+    "LPThirdPlatformKit": [
+      "LPThirdPlatformKit/Assets/*.xcassets"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "subspecs": [
+    {
+      "name": "Auth",
+      "source_files": "LPThirdPlatformKit/Classes/Auth/*",
+      "subspecs": [
+        {
+          "name": "Map",
+          "source_files": "LPThirdPlatformKit/Classes/Auth/Map/**/*",
+          "dependencies": {
+            "LPThirdPlatformKit/AMMapSDK": [
+
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "AMMapSDK",
+      "vendored_frameworks": [
+        "LPThirdPlatformKit/AMMapSDK/**/*.framework"
+      ],
+      "frameworks": [
+        "Security",
+        "CoreMotion",
+        "CoreLocation",
+        "GLKit",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "CoreServices"
+      ],
+      "libraries": [
+        "c++",
+        "z"
+      ],
+      "resources": [
+        "LPThirdPlatformKit/AMMapSDK/MAMapKit.framework/AMap.bundle"
+      ]
+    }
+  ]
+}

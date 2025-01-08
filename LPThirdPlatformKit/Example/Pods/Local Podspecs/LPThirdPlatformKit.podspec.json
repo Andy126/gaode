@@ -1,0 +1,151 @@
+{
+  "name": "LPThirdPlatformKit",
+  "version": "0.1.0",
+  "summary": "A short description of LPThirdPlatformKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://10.0.7.12/soft/ios-modules/glithirdplatformkit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanshengle": "1316838962@qq.com"
+  },
+  "source": {
+    "git": "http://10.0.7.12/soft/ios-modules/glithirdplatformkit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "resource_bundles": {
+    "LPThirdPlatformKit": [
+      "LPThirdPlatformKit/Assets/*.xcassets"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "prepare_command": "# 创建UMShare Module\nrm -rf LPThirdPlatformKit/UMengSDK/UMShare.framework/Modules\nmkdir LPThirdPlatformKit/UMengSDK/UMShare.framework/Modules\ntouch LPThirdPlatformKit/UMengSDK/UMShare.framework//Modules/module.modulemap\ncat <<-EOF > LPThirdPlatformKit/UMengSDK/UMShare.framework//Modules/module.modulemap\nframework module UMShare {\n  umbrella header \"UMShare.h\"\n  export *\n  link \"c++\"\n  link \"sqlite3\"\n  link \"z\"\n}\nEOF\n\n# 创建UMCommon Module\n# 先删除路径下 Modules 文件夹\nrm -rf LPThirdPlatformKit/UMengSDK/UMCommon.framework/Modules\n# 再创建路径下 Modules 文件夹\nmkdir LPThirdPlatformKit/UMengSDK/UMCommon.framework/Modules\n# 再生成 module.modulemap 文件\ntouch LPThirdPlatformKit/UMengSDK/UMCommon.framework//Modules/module.modulemap\n#\ncat <<-EOF > LPThirdPlatformKit/UMengSDK/UMCommon.framework//Modules/module.modulemap\nframework module UMCommon {\n  umbrella header \"UMCommon.h\"\n  export *\n  link \"c++\"\n  link \"sqlite3\"\n  link \"z\"\n}\nEOF",
+  "subspecs": [
+    {
+      "name": "Auth",
+      "source_files": "LPThirdPlatformKit/Classes/Auth/**/*",
+      "subspecs": [
+        {
+          "name": "Core",
+          "source_files": "LPThirdPlatformKit/Classes/Auth/Core/**/*",
+          "dependencies": {
+            "LPUIKit": [
+
+            ],
+            "LPCommon": [
+
+            ],
+            "LPNetwork": [
+
+            ],
+            "LPBusinessLogin": [
+
+            ],
+            "LPDBService": [
+
+            ],
+            "SnapKit": [
+
+            ],
+            "ObjectMapper": [
+
+            ]
+          }
+        },
+        {
+          "name": "General",
+          "source_files": "LPThirdPlatformKit/Classes/Auth/General/**/*",
+          "dependencies": {
+            "LPThirdPlatformKit/Auth/Core": [
+
+            ],
+            "LPThirdPlatformKit/Auth/UMeng": [
+
+            ],
+            "LPThirdPlatformKit/Auth/Firebase": [
+
+            ]
+          }
+        },
+        {
+          "name": "UMeng",
+          "source_files": "LPThirdPlatformKit/Classes/Auth/UMeng/**/*",
+          "dependencies": {
+            "LPThirdPlatformKit/Auth/Core": [
+
+            ],
+            "LPThirdPlatformKit/UMengSDK": [
+
+            ]
+          }
+        },
+        {
+          "name": "Firebase",
+          "source_files": "LPThirdPlatformKit/Classes/Auth/Firebase/**/*",
+          "frameworks": [
+            "AuthenticationServices",
+            "CryptoKit"
+          ],
+          "dependencies": {
+            "FirebaseCore": [
+
+            ],
+            "FirebaseAuth": [
+
+            ],
+            "GoogleSignIn": [
+
+            ],
+            "FacebookCore": [
+
+            ],
+            "FacebookLogin": [
+
+            ],
+            "FacebookShare": [
+
+            ],
+            "LPThirdPlatformKit/Auth/Core": [
+
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "UMengSDK",
+      "frameworks": [
+        "SystemConfiguration",
+        "CoreTelephony",
+        "WebKit",
+        "ImageIO",
+        "Photos"
+      ],
+      "libraries": [
+        "c++",
+        "sqlite3",
+        "z"
+      ],
+      "resources": [
+        "LPThirdPlatformKit/UMengSDK/SocialLibraries/**/*.bundle"
+      ],
+      "vendored_frameworks": [
+        "LPThirdPlatformKit/UMengSDK/**/*.framework"
+      ],
+      "vendored_libraries": [
+        "LPThirdPlatformKit/UMengSDK/SocialLibraries/**/*.a"
+      ]
+    }
+  ]
+}

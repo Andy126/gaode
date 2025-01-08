@@ -1,0 +1,1947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B7B534F9C0021D928D7807 /* Pods_common_pod_hl_sport_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C301FA3310FBA88596C155F /* Pods_common_pod_hl_sport_ios.framework */; };
+		1B3442AB2923A16300E8E8C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3442AA2923A16300E8E8C2 /* AppDelegate.swift */; };
+		1B3442B22923A16300E8E8C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3442B02923A16300E8E8C2 /* Main.storyboard */; };
+		1B3442B42923A16400E8E8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3442B32923A16400E8E8C2 /* Assets.xcassets */; };
+		1B3442B72923A16400E8E8C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3442B52923A16400E8E8C2 /* LaunchScreen.storyboard */; };
+		1B3443102923A54C00E8E8C2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B3443122923A54C00E8E8C2 /* Localizable.strings */; };
+		1B34432B2924B25100E8E8C2 /* config_modules.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B34432A2924B25100E8E8C2 /* config_modules.json */; };
+		1B34434B2925DD1A00E8E8C2 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B34434A2925DD1A00E8E8C2 /* config.json */; };
+		1B5A4CC4296917040075F60E /* device_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A4CC3296917040075F60E /* device_list.json */; };
+		30B35D0E294D669700DB7B86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30B35D10294D669700DB7B86 /* InfoPlist.strings */; };
+		6559085D294B17B500B5F0C8 /* D-DIN-PRO-600-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6559085C294B17B500B5F0C8 /* D-DIN-PRO-600-SemiBold.otf */; };
+		670D51C02CB511CC005493D3 /* HarmonyOS_Sans_SC_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670D51BF2CB511CC005493D3 /* HarmonyOS_Sans_SC_Regular.ttf */; };
+		670D51C12CB511CC005493D3 /* HarmonyOS_Sans_SC_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670D51BF2CB511CC005493D3 /* HarmonyOS_Sans_SC_Regular.ttf */; };
+		670D51C52CB511E5005493D3 /* HarmonyOS_Sans_SC_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670D51C42CB511E5005493D3 /* HarmonyOS_Sans_SC_Bold.ttf */; };
+		670D51C62CB511E5005493D3 /* HarmonyOS_Sans_SC_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670D51C42CB511E5005493D3 /* HarmonyOS_Sans_SC_Bold.ttf */; };
+		6715F6A02BEE2AE400A1A3ED /* UUIDTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6715F69F2BEE2AE400A1A3ED /* UUIDTool.swift */; };
+		675533AD2BD2621800302452 /* hl_sport_watch_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533AC2BD2621800302452 /* hl_sport_watch_testApp.swift */; };
+		675533B12BD2621900302452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675533B02BD2621900302452 /* Assets.xcassets */; };
+		675533B42BD2621900302452 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675533B32BD2621900302452 /* Preview Assets.xcassets */; };
+		675533BE2BD2621900302452 /* hl_sport_watch_test_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533BD2BD2621900302452 /* hl_sport_watch_test_Watch_AppTests.swift */; };
+		675533C82BD2621900302452 /* hl_sport_watch_test_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533C72BD2621900302452 /* hl_sport_watch_test_Watch_AppUITests.swift */; };
+		675533CA2BD2621900302452 /* hl_sport_watch_test_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533C92BD2621900302452 /* hl_sport_watch_test_Watch_AppUITestsLaunchTests.swift */; };
+		675533CD2BD2621900302452 /* hl_sport_watch_test Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 675533AA2BD2621700302452 /* hl_sport_watch_test Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		675533FE2BD2832400302452 /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533EF2BD2832400302452 /* ActivityRingsView.swift */; };
+		675533FF2BD2832400302452 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F02BD2832400302452 /* ContentView.swift */; };
+		675534002BD2832400302452 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F12BD2832400302452 /* ControlsView.swift */; };
+		675534012BD2832400302452 /* DeviceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F22BD2832400302452 /* DeviceInfoView.swift */; };
+		675534022BD2832400302452 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F32BD2832400302452 /* ElapsedTimeView.swift */; };
+		675534032BD2832400302452 /* GuideConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F42BD2832400302452 /* GuideConfigView.swift */; };
+		675534042BD2832400302452 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F52BD2832400302452 /* HomeView.swift */; };
+		675534052BD2832400302452 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F62BD2832400302452 /* MetricsView.swift */; };
+		675534062BD2832400302452 /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F72BD2832400302452 /* PromptView.swift */; };
+		675534072BD2832400302452 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F82BD2832400302452 /* RecordView.swift */; };
+		675534082BD2832400302452 /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F92BD2832400302452 /* RemindView.swift */; };
+		675534092BD2832400302452 /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533FA2BD2832400302452 /* SessionPagingView.swift */; };
+		6755340B2BD2832400302452 /* SumupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533FC2BD2832400302452 /* SumupView.swift */; };
+		675534122BD2834D00302452 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755340C2BD2834D00302452 /* Distance.swift */; };
+		675534132BD2834D00302452 /* LiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755340D2BD2834D00302452 /* LiveData.swift */; };
+		675534142BD2834D00302452 /* MotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755340E2BD2834D00302452 /* MotionData.swift */; };
+		675534152BD2834D00302452 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755340F2BD2834D00302452 /* ResponseData.swift */; };
+		675534162BD2834D00302452 /* SaveSwimParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534102BD2834D00302452 /* SaveSwimParam.swift */; };
+		675534222BD2883100302452 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755341C2BD2883100302452 /* BluetoothManager.swift */; };
+		675534232BD2883100302452 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755341D2BD2883100302452 /* SessionManager.swift */; };
+		675534242BD2883100302452 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755341F2BD2883100302452 /* NetworkManager.swift */; };
+		675534252BD2883100302452 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534202BD2883100302452 /* WorkoutManager.swift */; };
+		6755342F2BD2883F00302452 /* AttributedString+Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534262BD2883F00302452 /* AttributedString+Tool.swift */; };
+		675534302BD2883F00302452 /* DeallocPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534272BD2883F00302452 /* DeallocPrinter.swift */; };
+		675534312BD2883F00302452 /* RootPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534282BD2883F00302452 /* RootPresentationMode.swift */; };
+		675534322BD2883F00302452 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534292BD2883F00302452 /* RoundedCorners.swift */; };
+		675534332BD2883F00302452 /* TextFileObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755342A2BD2883F00302452 /* TextFileObservable.swift */; };
+		675534342BD2883F00302452 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755342B2BD2883F00302452 /* Toast.swift */; };
+		675534352BD2883F00302452 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755342C2BD2883F00302452 /* UIColorExtensions.swift */; };
+		675534362BD2883F00302452 /* View+Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755342D2BD2883F00302452 /* View+Tool.swift */; };
+		676CE0E12BFAF49A0010E10B /* EndAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676CE0E02BFAF49A0010E10B /* EndAlertView.swift */; };
+		67A19B4A29ED5449006076C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67A19B4829ED5449006076C8 /* InfoPlist.strings */; };
+		67A4A55B2BF215B3008D9561 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4A55A2BF215B3008D9561 /* CacheManager.swift */; };
+		67A4A55D2BF21B6F008D9561 /* UserCacheData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4A55C2BF21B6F008D9561 /* UserCacheData.swift */; };
+		67CC5DBA2BDFA9C0005A300B /* LPInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC5DB92BDFA9C0005A300B /* LPInstruction.swift */; };
+		67D8DB992C19954F00A8112E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F52BD2832400302452 /* HomeView.swift */; };
+		67D8DB9A2C19954F00A8112E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755341D2BD2883100302452 /* SessionManager.swift */; };
+		67D8DB9B2C19954F00A8112E /* RootPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534282BD2883F00302452 /* RootPresentationMode.swift */; };
+		67D8DB9C2C19954F00A8112E /* AttributedString+Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534262BD2883F00302452 /* AttributedString+Tool.swift */; };
+		67D8DB9D2C19954F00A8112E /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F82BD2832400302452 /* RecordView.swift */; };
+		67D8DB9E2C19954F00A8112E /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755340F2BD2834D00302452 /* ResponseData.swift */; };
+		67D8DB9F2C19954F00A8112E /* LPInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC5DB92BDFA9C0005A300B /* LPInstruction.swift */; };
+		67D8DBA02C19954F00A8112E /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533EF2BD2832400302452 /* ActivityRingsView.swift */; };
+		67D8DBA12C19954F00A8112E /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F32BD2832400302452 /* ElapsedTimeView.swift */; };
+		67D8DBA22C19954F00A8112E /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F92BD2832400302452 /* RemindView.swift */; };
+		67D8DBA32C19954F00A8112E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755342B2BD2883F00302452 /* Toast.swift */; };
+		67D8DBA42C19954F00A8112E /* UUIDTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6715F69F2BEE2AE400A1A3ED /* UUIDTool.swift */; };
+		67D8DBA52C19954F00A8112E /* TextFileObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755342A2BD2883F00302452 /* TextFileObservable.swift */; };
+		67D8DBA62C19954F00A8112E /* DeviceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F22BD2832400302452 /* DeviceInfoView.swift */; };
+		67D8DBA72C19954F00A8112E /* DeallocPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534272BD2883F00302452 /* DeallocPrinter.swift */; };
+		67D8DBA82C19954F00A8112E /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533FA2BD2832400302452 /* SessionPagingView.swift */; };
+		67D8DBA92C19954F00A8112E /* SaveSwimParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534102BD2834D00302452 /* SaveSwimParam.swift */; };
+		67D8DBAA2C19954F00A8112E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755341F2BD2883100302452 /* NetworkManager.swift */; };
+		67D8DBAB2C19954F00A8112E /* MotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755340E2BD2834D00302452 /* MotionData.swift */; };
+		67D8DBAC2C19954F00A8112E /* LPDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0454E2BD928A300F5656B /* LPDeviceInfo.swift */; };
+		67D8DBAD2C19954F00A8112E /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F72BD2832400302452 /* PromptView.swift */; };
+		67D8DBAF2C19954F00A8112E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F02BD2832400302452 /* ContentView.swift */; };
+		67D8DBB02C19954F00A8112E /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F62BD2832400302452 /* MetricsView.swift */; };
+		67D8DBB12C19954F00A8112E /* LPLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E462BD2C042D19000FF956 /* LPLanguage.swift */; };
+		67D8DBB22C19954F00A8112E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E5710D2C15C7D30061FECA /* InterfaceController.swift */; };
+		67D8DBB32C19954F00A8112E /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534202BD2883100302452 /* WorkoutManager.swift */; };
+		67D8DBB42C19954F00A8112E /* EndAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676CE0E02BFAF49A0010E10B /* EndAlertView.swift */; };
+		67D8DBB52C19954F00A8112E /* UserCacheData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4A55C2BF21B6F008D9561 /* UserCacheData.swift */; };
+		67D8DBB62C19954F00A8112E /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F12BD2832400302452 /* ControlsView.swift */; };
+		67D8DBB72C19954F00A8112E /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675534292BD2883F00302452 /* RoundedCorners.swift */; };
+		67D8DBB82C19954F00A8112E /* hl_sport_watch_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533AC2BD2621800302452 /* hl_sport_watch_testApp.swift */; };
+		67D8DBB92C19954F00A8112E /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4A55A2BF215B3008D9561 /* CacheManager.swift */; };
+		67D8DBBA2C19954F00A8112E /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755340C2BD2834D00302452 /* Distance.swift */; };
+		67D8DBBB2C19954F00A8112E /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755341C2BD2883100302452 /* BluetoothManager.swift */; };
+		67D8DBBC2C19954F00A8112E /* GuideConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533F42BD2832400302452 /* GuideConfigView.swift */; };
+		67D8DBBD2C19954F00A8112E /* SumupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675533FC2BD2832400302452 /* SumupView.swift */; };
+		67D8DBBE2C19954F00A8112E /* View+Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755342D2BD2883F00302452 /* View+Tool.swift */; };
+		67D8DBBF2C19954F00A8112E /* LiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755340D2BD2834D00302452 /* LiveData.swift */; };
+		67D8DBC02C19954F00A8112E /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6755342C2BD2883F00302452 /* UIColorExtensions.swift */; };
+		67D8DBC32C19954F00A8112E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675533B32BD2621900302452 /* Preview Assets.xcassets */; };
+		67D8DBC42C19954F00A8112E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675533B02BD2621900302452 /* Assets.xcassets */; };
+		67D8DBC52C19954F00A8112E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 67E462BB2C0427D3000FF956 /* Localizable.xcstrings */; };
+		67D8DBCB2C199E5300A8112E /* hl_sport_watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 67D8DBC92C19954F00A8112E /* hl_sport_watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67E0454F2BD928A300F5656B /* LPDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0454E2BD928A300F5656B /* LPDeviceInfo.swift */; };
+		67E462BC2C0427D3000FF956 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 67E462BB2C0427D3000FF956 /* Localizable.xcstrings */; };
+		67E462BE2C042D19000FF956 /* LPLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E462BD2C042D19000FF956 /* LPLanguage.swift */; };
+		67E5710E2C15C7D30061FECA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E5710D2C15C7D30061FECA /* InterfaceController.swift */; };
+		7846DEEBE0745DA986024167 /* Pods_common_pod_hl_sport_ios_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8904CB27A1AD0B3465E1E13E /* Pods_common_pod_hl_sport_ios_test.framework */; };
+		88B289B9F7265CF05A8284B8 /* Pods_common_pod_hl_sport_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6755343B2BD5FC9F00302452 /* Pods_common_pod_hl_sport_ios.framework */; };
+		AE7A2FF042901CCDC2E5419B /* Pods_common_pod_hl_sport_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675533E32BD2737900302452 /* Pods_common_pod_hl_sport_ios.framework */; };
+		B87A4E7129E3ED2700D05445 /* AppLaunch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87A4E6D29E3ED2700D05445 /* AppLaunch@2x.png */; };
+		B87A4E7229E3ED2700D05445 /* AppLaunch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87A4E6D29E3ED2700D05445 /* AppLaunch@2x.png */; };
+		B87A4E7329E3ED2700D05445 /* AppLaunch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87A4E6E29E3ED2700D05445 /* AppLaunch@3x.png */; };
+		B87A4E7429E3ED2700D05445 /* AppLaunch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87A4E6E29E3ED2700D05445 /* AppLaunch@3x.png */; };
+		B87A4E7529E3ED2700D05445 /* AppLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87A4E6F29E3ED2700D05445 /* AppLogo@2x.png */; };
+		B87A4E7629E3ED2700D05445 /* AppLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87A4E6F29E3ED2700D05445 /* AppLogo@2x.png */; };
+		B87A4E7729E3ED2700D05445 /* AppLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87A4E7029E3ED2700D05445 /* AppLogo@3x.png */; };
+		B87A4E7829E3ED2700D05445 /* AppLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87A4E7029E3ED2700D05445 /* AppLogo@3x.png */; };
+		B8C19DB229DAB70900B0C661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3442AA2923A16300E8E8C2 /* AppDelegate.swift */; };
+		B8C19DB629DAB70900B0C661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3442B52923A16400E8E8C2 /* LaunchScreen.storyboard */; };
+		B8C19DB829DAB70900B0C661 /* D-DIN-PRO-600-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6559085C294B17B500B5F0C8 /* D-DIN-PRO-600-SemiBold.otf */; };
+		B8C19DB929DAB70900B0C661 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B3443122923A54C00E8E8C2 /* Localizable.strings */; };
+		B8C19DBB29DAB70900B0C661 /* device_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A4CC3296917040075F60E /* device_list.json */; };
+		B8C19DBC29DAB70900B0C661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3442B32923A16400E8E8C2 /* Assets.xcassets */; };
+		B8C19DBE29DAB70900B0C661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3442B02923A16300E8E8C2 /* Main.storyboard */; };
+		B8C19DC129DAB70900B0C661 /* config_modules.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B34432A2924B25100E8E8C2 /* config_modules.json */; };
+		B8C19DC229DAB70900B0C661 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B34434A2925DD1A00E8E8C2 /* config.json */; };
+		B8C19DD929DAE63F00B0C661 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8C19DD729DAE63F00B0C661 /* GoogleService-Info.plist */; };
+		B8C19DDA29DAE64900B0C661 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8C19DD529DAE63F00B0C661 /* GoogleService-Info.plist */; };
+		B8C19DDF29DBBA0E00B0C661 /* hl_sport_ios_test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8C19DDD29DBBA0800B0C661 /* hl_sport_ios_test-Info.plist */; };
+		FA4E20723679E158FD919E21 /* Pods_common_pod_hl_sport_ios_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675533D82BD268DF00302452 /* Pods_common_pod_hl_sport_ios_test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		675533BA2BD2621900302452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B34429F2923A16300E8E8C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 675533A92BD2621700302452;
+			remoteInfo = "hl_sport_watch_test Watch App";
+		};
+		675533C42BD2621900302452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B34429F2923A16300E8E8C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 675533A92BD2621700302452;
+			remoteInfo = "hl_sport_watch_test Watch App";
+		};
+		675533CB2BD2621900302452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B34429F2923A16300E8E8C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 675533A92BD2621700302452;
+			remoteInfo = "hl_sport_watch_test Watch App";
+		};
+		67D8DBCC2C199E5300A8112E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B34429F2923A16300E8E8C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67D8DB972C19954F00A8112E;
+			remoteInfo = "hl_sport_watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		675533CE2BD2621900302452 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				675533CD2BD2621900302452 /* hl_sport_watch_test Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D8DBCE2C199E5300A8112E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				67D8DBCB2C199E5300A8112E /* hl_sport_watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B3442A72923A16300E8E8C2 /* hl_sport_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hl_sport_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3442AA2923A16300E8E8C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B3442B12923A16300E8E8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B3442B32923A16400E8E8C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B3442B62923A16400E8E8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B34430E2923A53F00E8E8C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		1B34430F2923A54000E8E8C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1B3443112923A54C00E8E8C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1B3443132923A55100E8E8C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1B34432A2924B25100E8E8C2 /* config_modules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config_modules.json; sourceTree = SOURCE_ROOT; };
+		1B34434A2925DD1A00E8E8C2 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = SOURCE_ROOT; };
+		1B5A4CC3296917040075F60E /* device_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = device_list.json; sourceTree = SOURCE_ROOT; };
+		292CC890A1A4113FFB1A5A37 /* Pods-common_pod-hl_sport_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common_pod-hl_sport_ios.release.xcconfig"; path = "Target Support Files/Pods-common_pod-hl_sport_ios/Pods-common_pod-hl_sport_ios.release.xcconfig"; sourceTree = "<group>"; };
+		2EC6CBE00A8C1815C8165C68 /* Pods_common_pod_hl_sport_ios_test_hl_sport_watch_test_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_common_pod_hl_sport_ios_test_hl_sport_watch_test_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30985D5E296EC40400C18732 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		30B35D0F294D669700DB7B86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30B35D11294D669B00DB7B86 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		30B35D12294D669C00DB7B86 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3CA09AEB08F7D9DEB40686C7 /* Pods-hl_sport_ios_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hl_sport_ios_test.release.xcconfig"; path = "Target Support Files/Pods-hl_sport_ios_test/Pods-hl_sport_ios_test.release.xcconfig"; sourceTree = "<group>"; };
+		3E72AE98E3A41601A34F33FA /* Pods-hl_sport_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hl_sport_ios.debug.xcconfig"; path = "Target Support Files/Pods-hl_sport_ios/Pods-hl_sport_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		46F879A73D6208BDB5991EC8 /* Pods-abstract_pod-hl_sport_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abstract_pod-hl_sport_ios.debug.xcconfig"; path = "Target Support Files/Pods-abstract_pod-hl_sport_ios/Pods-abstract_pod-hl_sport_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		50B574C9835164240B00B247 /* Pods-common_pod-hl_sport_ios_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common_pod-hl_sport_ios_test.release.xcconfig"; path = "Target Support Files/Pods-common_pod-hl_sport_ios_test/Pods-common_pod-hl_sport_ios_test.release.xcconfig"; sourceTree = "<group>"; };
+		582E1792E02610D90B869F2E /* Pods-hl_sport_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hl_sport_ios.release.xcconfig"; path = "Target Support Files/Pods-hl_sport_ios/Pods-hl_sport_ios.release.xcconfig"; sourceTree = "<group>"; };
+		6559085C294B17B500B5F0C8 /* D-DIN-PRO-600-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DIN-PRO-600-SemiBold.otf"; sourceTree = "<group>"; };
+		655BEAAA294824820066719F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		655BEAAB294824830066719F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		655BEAAC294824940066719F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		67000F042A4D325E001B6AD9 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		67000F062A4D3297001B6AD9 /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = System/Library/Frameworks/CryptoKit.framework; sourceTree = SDKROOT; };
+		670C170F2B2073FC003B6D51 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		670C17102B2073FC003B6D51 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		670C17112B2073FC003B6D51 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		670C17122B2073FD003B6D51 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		670C17132B2073FD003B6D51 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		670C17192B2074CB003B6D51 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		670C171A2B2074CC003B6D51 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		670C171B2B2074CC003B6D51 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		670C171C2B2074CC003B6D51 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		670C171D2B2074CC003B6D51 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		670D51BF2CB511CC005493D3 /* HarmonyOS_Sans_SC_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_SC_Regular.ttf; sourceTree = "<group>"; };
+		670D51C42CB511E5005493D3 /* HarmonyOS_Sans_SC_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_SC_Bold.ttf; sourceTree = "<group>"; };
+		6715F69F2BEE2AE400A1A3ED /* UUIDTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDTool.swift; sourceTree = "<group>"; };
+		67177946B4CBF97A6F851F55 /* Pods-common_pod-hl_sport_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common_pod-hl_sport_ios.debug.xcconfig"; path = "Target Support Files/Pods-common_pod-hl_sport_ios/Pods-common_pod-hl_sport_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		675533AA2BD2621700302452 /* hl_sport_watch_test Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hl_sport_watch_test Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		675533AC2BD2621800302452 /* hl_sport_watch_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hl_sport_watch_testApp.swift; sourceTree = "<group>"; };
+		675533B02BD2621900302452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		675533B32BD2621900302452 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		675533B92BD2621900302452 /* hl_sport_watch_test Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hl_sport_watch_test Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		675533BD2BD2621900302452 /* hl_sport_watch_test_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hl_sport_watch_test_Watch_AppTests.swift; sourceTree = "<group>"; };
+		675533C32BD2621900302452 /* hl_sport_watch_test Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hl_sport_watch_test Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		675533C72BD2621900302452 /* hl_sport_watch_test_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hl_sport_watch_test_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		675533C92BD2621900302452 /* hl_sport_watch_test_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hl_sport_watch_test_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		675533D82BD268DF00302452 /* Pods_common_pod_hl_sport_ios_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_common_pod_hl_sport_ios_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675533DD2BD26E6300302452 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675533E02BD2736500302452 /* Pods_common_pod_hl_sport_watch_test_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_common_pod_hl_sport_watch_test_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675533E32BD2737900302452 /* Pods_common_pod_hl_sport_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_common_pod_hl_sport_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675533E62BD2760900302452 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675533E72BD2760900302452 /* MJExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = MJExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		675533E82BD2760900302452 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675533EF2BD2832400302452 /* ActivityRingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
+		675533F02BD2832400302452 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		675533F12BD2832400302452 /* ControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		675533F22BD2832400302452 /* DeviceInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoView.swift; sourceTree = "<group>"; };
+		675533F32BD2832400302452 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		675533F42BD2832400302452 /* GuideConfigView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideConfigView.swift; sourceTree = "<group>"; };
+		675533F52BD2832400302452 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		675533F62BD2832400302452 /* MetricsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		675533F72BD2832400302452 /* PromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
+		675533F82BD2832400302452 /* RecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		675533F92BD2832400302452 /* RemindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
+		675533FA2BD2832400302452 /* SessionPagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		675533FC2BD2832400302452 /* SumupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumupView.swift; sourceTree = "<group>"; };
+		6755340C2BD2834D00302452 /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		6755340D2BD2834D00302452 /* LiveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveData.swift; sourceTree = "<group>"; };
+		6755340E2BD2834D00302452 /* MotionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionData.swift; sourceTree = "<group>"; };
+		6755340F2BD2834D00302452 /* ResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
+		675534102BD2834D00302452 /* SaveSwimParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveSwimParam.swift; sourceTree = "<group>"; };
+		6755341C2BD2883100302452 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		6755341D2BD2883100302452 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		6755341F2BD2883100302452 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		675534202BD2883100302452 /* WorkoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		675534262BD2883F00302452 /* AttributedString+Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AttributedString+Tool.swift"; sourceTree = "<group>"; };
+		675534272BD2883F00302452 /* DeallocPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeallocPrinter.swift; sourceTree = "<group>"; };
+		675534282BD2883F00302452 /* RootPresentationMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPresentationMode.swift; sourceTree = "<group>"; };
+		675534292BD2883F00302452 /* RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		6755342A2BD2883F00302452 /* TextFileObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFileObservable.swift; sourceTree = "<group>"; };
+		6755342B2BD2883F00302452 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		6755342C2BD2883F00302452 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		6755342D2BD2883F00302452 /* View+Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Tool.swift"; sourceTree = "<group>"; };
+		675534372BD28E8100302452 /* Pods_common_pod_hl_sport_ios_test_hl_sport_watch_test_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_common_pod_hl_sport_ios_test_hl_sport_watch_test_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6755343B2BD5FC9F00302452 /* Pods_common_pod_hl_sport_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_common_pod_hl_sport_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6755343F2BD6030E00302452 /* hl_sport_watch_test Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "hl_sport_watch_test Watch App.entitlements"; sourceTree = "<group>"; };
+		675534402BD608BF00302452 /* hl-sport-watch-test-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "hl-sport-watch-test-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		676CDAB52B4BE7E10094EF07 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main.strings"; sourceTree = "<group>"; };
+		676CDAB62B4BE7E10094EF07 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		676CDAB72B4BE7E10094EF07 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		676CDAB82B4BE7E10094EF07 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		676CDAB92B4BE7E10094EF07 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		676CDABA2B4BE7EB0094EF07 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		676CDABB2B4BE7EB0094EF07 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		676CDABC2B4BE7EB0094EF07 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		676CDABD2B4BE7EB0094EF07 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		676CDABE2B4BE7EC0094EF07 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		676CE0E02BFAF49A0010E10B /* EndAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndAlertView.swift; sourceTree = "<group>"; };
+		678942EA2B5120B7002C8BD6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		678942EB2B5120B7002C8BD6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		678942EC2B5120B7002C8BD6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		678942ED2B5120B7002C8BD6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		678942EE2B5120B7002C8BD6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		678942EF2B5120C7002C8BD6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		678942F02B5120C7002C8BD6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		678942F12B5120C7002C8BD6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		678942F22B5120C7002C8BD6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		678942F32B5120C7002C8BD6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		678942F42B5120E4002C8BD6 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		678942F52B5120E4002C8BD6 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		678942F62B5120E4002C8BD6 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		678942F72B5120E4002C8BD6 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		678942F82B5120E4002C8BD6 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		67A19B4929ED5449006076C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67A19B4B29ED5456006076C8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67A19B4C29ED5465006076C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		67A19B4D29ED5470006076C8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		67A4A55A2BF215B3008D9561 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		67A4A55C2BF21B6F008D9561 /* UserCacheData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCacheData.swift; sourceTree = "<group>"; };
+		67CC5DB92BDFA9C0005A300B /* LPInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPInstruction.swift; sourceTree = "<group>"; };
+		67CC5DBB2BE0C4B1005A300B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CC5DBF2BE0C543005A300B /* WCDBSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WCDBSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CC5DC32BE0EC32005A300B /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D8DBC92C19954F00A8112E /* hl_sport_watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hl_sport_watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E0454E2BD928A300F5656B /* LPDeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPDeviceInfo.swift; sourceTree = "<group>"; };
+		67E462BB2C0427D3000FF956 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		67E462BD2C042D19000FF956 /* LPLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLanguage.swift; sourceTree = "<group>"; };
+		67E5710D2C15C7D30061FECA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		67FA1EA72A7BB64200ED7FE6 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		67FA1EA82A7BB64200ED7FE6 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		67FA1EA92A7BB64200ED7FE6 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67FA1EAA2A7BB64200ED7FE6 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67FA1EAB2A7BB64300ED7FE6 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A37A5A3F31608D0C29FDCEB /* Pods-abstract_pod-hl_sport_ios_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abstract_pod-hl_sport_ios_test.debug.xcconfig"; path = "Target Support Files/Pods-abstract_pod-hl_sport_ios_test/Pods-abstract_pod-hl_sport_ios_test.debug.xcconfig"; sourceTree = "<group>"; };
+		70A1481AF11F262B7828366B /* Pods-common_pod-hl_sport_ios_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common_pod-hl_sport_ios_test.debug.xcconfig"; path = "Target Support Files/Pods-common_pod-hl_sport_ios_test/Pods-common_pod-hl_sport_ios_test.debug.xcconfig"; sourceTree = "<group>"; };
+		70C29FB3CC756061EA949F7E /* Pods-abstract_pod-hl_sport_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abstract_pod-hl_sport_ios.release.xcconfig"; path = "Target Support Files/Pods-abstract_pod-hl_sport_ios/Pods-abstract_pod-hl_sport_ios.release.xcconfig"; sourceTree = "<group>"; };
+		8904CB27A1AD0B3465E1E13E /* Pods_common_pod_hl_sport_ios_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_common_pod_hl_sport_ios_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C301FA3310FBA88596C155F /* Pods_common_pod_hl_sport_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_common_pod_hl_sport_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A521BED22DD11788E0FABA8D /* Pods-common_pod-hl_sport_watch_test Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common_pod-hl_sport_watch_test Watch App.debug.xcconfig"; path = "Target Support Files/Pods-common_pod-hl_sport_watch_test Watch App/Pods-common_pod-hl_sport_watch_test Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		AA76C982796695F0C55F0F47 /* Pods-common_pod-hl_sport_watch_test Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common_pod-hl_sport_watch_test Watch App.release.xcconfig"; path = "Target Support Files/Pods-common_pod-hl_sport_watch_test Watch App/Pods-common_pod-hl_sport_watch_test Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		B877144029F131970085B257 /* hl_sport_ios_test.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = hl_sport_ios_test.entitlements; sourceTree = "<group>"; };
+		B87A4E6D29E3ED2700D05445 /* AppLaunch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppLaunch@2x.png"; sourceTree = "<group>"; };
+		B87A4E6E29E3ED2700D05445 /* AppLaunch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppLaunch@3x.png"; sourceTree = "<group>"; };
+		B87A4E6F29E3ED2700D05445 /* AppLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppLogo@2x.png"; sourceTree = "<group>"; };
+		B87A4E7029E3ED2700D05445 /* AppLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppLogo@3x.png"; sourceTree = "<group>"; };
+		B8C19DC829DAB70900B0C661 /* hl_sport_ios_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hl_sport_ios_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C19DD529DAE63F00B0C661 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8C19DD729DAE63F00B0C661 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8C19DDB29DBB9F900B0C661 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C19DDD29DBBA0800B0C661 /* hl_sport_ios_test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hl_sport_ios_test-Info.plist"; sourceTree = "<group>"; };
+		B8D2786629CB0575008A0EB4 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		B8EC688429C9450A00C3C44A /* hl_sport_ios.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = hl_sport_ios.entitlements; sourceTree = "<group>"; };
+		B8F6EE5A29BF34C900ABC18A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		B8F6EE5B29BF34CA00ABC18A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B8F6EE5C29BF34CA00ABC18A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B8F6EE5D29BF34CA00ABC18A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8F6EE6429BF41CA00ABC18A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C69656D38977297C389B39D1 /* Pods-hl_sport_ios_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hl_sport_ios_test.debug.xcconfig"; path = "Target Support Files/Pods-hl_sport_ios_test/Pods-hl_sport_ios_test.debug.xcconfig"; sourceTree = "<group>"; };
+		EDB03E7D1AA716E90B138571 /* Pods-abstract_pod-hl_sport_ios_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abstract_pod-hl_sport_ios_test.release.xcconfig"; path = "Target Support Files/Pods-abstract_pod-hl_sport_ios_test/Pods-abstract_pod-hl_sport_ios_test.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B3442A42923A16300E8E8C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B7B534F9C0021D928D7807 /* Pods_common_pod_hl_sport_ios.framework in Frameworks */,
+				AE7A2FF042901CCDC2E5419B /* Pods_common_pod_hl_sport_ios.framework in Frameworks */,
+				88B289B9F7265CF05A8284B8 /* Pods_common_pod_hl_sport_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675533A72BD2621700302452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675533B62BD2621900302452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675533C02BD2621900302452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D8DBC12C19954F00A8112E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C19DB329DAB70900B0C661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7846DEEBE0745DA986024167 /* Pods_common_pod_hl_sport_ios_test.framework in Frameworks */,
+				FA4E20723679E158FD919E21 /* Pods_common_pod_hl_sport_ios_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B34429E2923A16300E8E8C2 = {
+			isa = PBXGroup;
+			children = (
+				1B3442A92923A16300E8E8C2 /* hl_sport_ios */,
+				675533AB2BD2621800302452 /* hl_sport_watch_test Watch App */,
+				675533BC2BD2621900302452 /* hl_sport_watch_test Watch AppTests */,
+				675533C62BD2621900302452 /* hl_sport_watch_test Watch AppUITests */,
+				1B3442A82923A16300E8E8C2 /* Products */,
+				376952A5B875D7C1BCE3FE16 /* Pods */,
+				DBB678BBEAB1B3422C4DD4DC /* Frameworks */,
+				675533DC2BD26D4500302452 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		1B3442A82923A16300E8E8C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B3442A72923A16300E8E8C2 /* hl_sport_ios.app */,
+				B8C19DC829DAB70900B0C661 /* hl_sport_ios_test.app */,
+				675533AA2BD2621700302452 /* hl_sport_watch_test Watch App.app */,
+				675533B92BD2621900302452 /* hl_sport_watch_test Watch AppTests.xctest */,
+				675533C32BD2621900302452 /* hl_sport_watch_test Watch AppUITests.xctest */,
+				67D8DBC92C19954F00A8112E /* hl_sport_watch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B3442A92923A16300E8E8C2 /* hl_sport_ios */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A4CC3296917040075F60E /* device_list.json */,
+				1B34434A2925DD1A00E8E8C2 /* config.json */,
+				1B34432A2924B25100E8E8C2 /* config_modules.json */,
+				1B3443152923BFEF00E8E8C2 /* Sources */,
+				1B3443142923A5CE00E8E8C2 /* AppDelegate */,
+			);
+			path = hl_sport_ios;
+			sourceTree = "<group>";
+		};
+		1B3443142923A5CE00E8E8C2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1B3442AA2923A16300E8E8C2 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1B3443152923BFEF00E8E8C2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B87A4E6C29E3ED2700D05445 /* LaunchImg */,
+				B8C19DD629DAE63F00B0C661 /* InfoPlist */,
+				B8C19DD429DAE63F00B0C661 /* InfoPlist_test */,
+				6559085C294B17B500B5F0C8 /* D-DIN-PRO-600-SemiBold.otf */,
+				670D51BF2CB511CC005493D3 /* HarmonyOS_Sans_SC_Regular.ttf */,
+				670D51C42CB511E5005493D3 /* HarmonyOS_Sans_SC_Bold.ttf */,
+				1B3442B02923A16300E8E8C2 /* Main.storyboard */,
+				1B3442B32923A16400E8E8C2 /* Assets.xcassets */,
+				1B3442B52923A16400E8E8C2 /* LaunchScreen.storyboard */,
+				1B3443122923A54C00E8E8C2 /* Localizable.strings */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		376952A5B875D7C1BCE3FE16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E72AE98E3A41601A34F33FA /* Pods-hl_sport_ios.debug.xcconfig */,
+				582E1792E02610D90B869F2E /* Pods-hl_sport_ios.release.xcconfig */,
+				C69656D38977297C389B39D1 /* Pods-hl_sport_ios_test.debug.xcconfig */,
+				3CA09AEB08F7D9DEB40686C7 /* Pods-hl_sport_ios_test.release.xcconfig */,
+				46F879A73D6208BDB5991EC8 /* Pods-abstract_pod-hl_sport_ios.debug.xcconfig */,
+				70C29FB3CC756061EA949F7E /* Pods-abstract_pod-hl_sport_ios.release.xcconfig */,
+				6A37A5A3F31608D0C29FDCEB /* Pods-abstract_pod-hl_sport_ios_test.debug.xcconfig */,
+				EDB03E7D1AA716E90B138571 /* Pods-abstract_pod-hl_sport_ios_test.release.xcconfig */,
+				67177946B4CBF97A6F851F55 /* Pods-common_pod-hl_sport_ios.debug.xcconfig */,
+				292CC890A1A4113FFB1A5A37 /* Pods-common_pod-hl_sport_ios.release.xcconfig */,
+				70A1481AF11F262B7828366B /* Pods-common_pod-hl_sport_ios_test.debug.xcconfig */,
+				50B574C9835164240B00B247 /* Pods-common_pod-hl_sport_ios_test.release.xcconfig */,
+				A521BED22DD11788E0FABA8D /* Pods-common_pod-hl_sport_watch_test Watch App.debug.xcconfig */,
+				AA76C982796695F0C55F0F47 /* Pods-common_pod-hl_sport_watch_test Watch App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		675533AB2BD2621800302452 /* hl_sport_watch_test Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				675534402BD608BF00302452 /* hl-sport-watch-test-Watch-App-Info.plist */,
+				6755343F2BD6030E00302452 /* hl_sport_watch_test Watch App.entitlements */,
+				67E462BB2C0427D3000FF956 /* Localizable.xcstrings */,
+				6755342E2BD2883F00302452 /* Tool */,
+				675534212BD2883100302452 /* Controller */,
+				675534112BD2834D00302452 /* Model */,
+				675533FD2BD2832400302452 /* Views */,
+				675533AC2BD2621800302452 /* hl_sport_watch_testApp.swift */,
+				675533B02BD2621900302452 /* Assets.xcassets */,
+				675533B22BD2621900302452 /* Preview Content */,
+			);
+			path = "hl_sport_watch_test Watch App";
+			sourceTree = "<group>";
+		};
+		675533B22BD2621900302452 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				675533B32BD2621900302452 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		675533BC2BD2621900302452 /* hl_sport_watch_test Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				675533BD2BD2621900302452 /* hl_sport_watch_test_Watch_AppTests.swift */,
+			);
+			path = "hl_sport_watch_test Watch AppTests";
+			sourceTree = "<group>";
+		};
+		675533C62BD2621900302452 /* hl_sport_watch_test Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				675533C72BD2621900302452 /* hl_sport_watch_test_Watch_AppUITests.swift */,
+				675533C92BD2621900302452 /* hl_sport_watch_test_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "hl_sport_watch_test Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		675533DC2BD26D4500302452 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				675533D82BD268DF00302452 /* Pods_common_pod_hl_sport_ios_test.framework */,
+				675533E02BD2736500302452 /* Pods_common_pod_hl_sport_watch_test_Watch_App.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		675533FD2BD2832400302452 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				675533EF2BD2832400302452 /* ActivityRingsView.swift */,
+				675533F02BD2832400302452 /* ContentView.swift */,
+				675533F12BD2832400302452 /* ControlsView.swift */,
+				675533F22BD2832400302452 /* DeviceInfoView.swift */,
+				675533F32BD2832400302452 /* ElapsedTimeView.swift */,
+				675533F42BD2832400302452 /* GuideConfigView.swift */,
+				675533F52BD2832400302452 /* HomeView.swift */,
+				675533F62BD2832400302452 /* MetricsView.swift */,
+				675533F72BD2832400302452 /* PromptView.swift */,
+				675533F82BD2832400302452 /* RecordView.swift */,
+				675533F92BD2832400302452 /* RemindView.swift */,
+				675533FA2BD2832400302452 /* SessionPagingView.swift */,
+				675533FC2BD2832400302452 /* SumupView.swift */,
+				676CE0E02BFAF49A0010E10B /* EndAlertView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		675534112BD2834D00302452 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67E0454E2BD928A300F5656B /* LPDeviceInfo.swift */,
+				6755340C2BD2834D00302452 /* Distance.swift */,
+				6755340D2BD2834D00302452 /* LiveData.swift */,
+				6755340E2BD2834D00302452 /* MotionData.swift */,
+				6755340F2BD2834D00302452 /* ResponseData.swift */,
+				675534102BD2834D00302452 /* SaveSwimParam.swift */,
+				67A4A55C2BF21B6F008D9561 /* UserCacheData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6755341E2BD2883100302452 /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				6755341C2BD2883100302452 /* BluetoothManager.swift */,
+				6755341D2BD2883100302452 /* SessionManager.swift */,
+				67CC5DB92BDFA9C0005A300B /* LPInstruction.swift */,
+				6715F69F2BEE2AE400A1A3ED /* UUIDTool.swift */,
+				67A4A55A2BF215B3008D9561 /* CacheManager.swift */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+		675534212BD2883100302452 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6755341E2BD2883100302452 /* Untils */,
+				6755341F2BD2883100302452 /* NetworkManager.swift */,
+				675534202BD2883100302452 /* WorkoutManager.swift */,
+				67E5710D2C15C7D30061FECA /* InterfaceController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6755342E2BD2883F00302452 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				675534262BD2883F00302452 /* AttributedString+Tool.swift */,
+				675534272BD2883F00302452 /* DeallocPrinter.swift */,
+				675534282BD2883F00302452 /* RootPresentationMode.swift */,
+				675534292BD2883F00302452 /* RoundedCorners.swift */,
+				6755342A2BD2883F00302452 /* TextFileObservable.swift */,
+				6755342B2BD2883F00302452 /* Toast.swift */,
+				6755342C2BD2883F00302452 /* UIColorExtensions.swift */,
+				6755342D2BD2883F00302452 /* View+Tool.swift */,
+				67E462BD2C042D19000FF956 /* LPLanguage.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		B87A4E6C29E3ED2700D05445 /* LaunchImg */ = {
+			isa = PBXGroup;
+			children = (
+				B87A4E6D29E3ED2700D05445 /* AppLaunch@2x.png */,
+				B87A4E6E29E3ED2700D05445 /* AppLaunch@3x.png */,
+				B87A4E6F29E3ED2700D05445 /* AppLogo@2x.png */,
+				B87A4E7029E3ED2700D05445 /* AppLogo@3x.png */,
+			);
+			path = LaunchImg;
+			sourceTree = "<group>";
+		};
+		B8C19DD429DAE63F00B0C661 /* InfoPlist_test */ = {
+			isa = PBXGroup;
+			children = (
+				B877144029F131970085B257 /* hl_sport_ios_test.entitlements */,
+				67A19B4829ED5449006076C8 /* InfoPlist.strings */,
+				B8C19DDD29DBBA0800B0C661 /* hl_sport_ios_test-Info.plist */,
+				B8C19DD529DAE63F00B0C661 /* GoogleService-Info.plist */,
+			);
+			path = InfoPlist_test;
+			sourceTree = "<group>";
+		};
+		B8C19DD629DAE63F00B0C661 /* InfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC688429C9450A00C3C44A /* hl_sport_ios.entitlements */,
+				30B35D10294D669700DB7B86 /* InfoPlist.strings */,
+				B8C19DDB29DBB9F900B0C661 /* Info.plist */,
+				B8C19DD729DAE63F00B0C661 /* GoogleService-Info.plist */,
+			);
+			path = InfoPlist;
+			sourceTree = "<group>";
+		};
+		DBB678BBEAB1B3422C4DD4DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67CC5DC32BE0EC32005A300B /* SwiftDate.framework */,
+				67CC5DBF2BE0C543005A300B /* WCDBSwift.framework */,
+				67CC5DBB2BE0C4B1005A300B /* SnapKit.framework */,
+				6755343B2BD5FC9F00302452 /* Pods_common_pod_hl_sport_ios.framework */,
+				675534372BD28E8100302452 /* Pods_common_pod_hl_sport_ios_test_hl_sport_watch_test_Watch_App.framework */,
+				675533E62BD2760900302452 /* MJExtension.framework */,
+				675533E72BD2760900302452 /* MJExtension.bundle */,
+				675533E82BD2760900302452 /* MJRefresh.framework */,
+				675533E32BD2737900302452 /* Pods_common_pod_hl_sport_ios.framework */,
+				675533DD2BD26E6300302452 /* Moya.framework */,
+				67000F062A4D3297001B6AD9 /* CryptoKit.framework */,
+				67000F042A4D325E001B6AD9 /* AppTrackingTransparency.framework */,
+				B8D2786629CB0575008A0EB4 /* AuthenticationServices.framework */,
+				B8F6EE6429BF41CA00ABC18A /* libc++.tbd */,
+				9C301FA3310FBA88596C155F /* Pods_common_pod_hl_sport_ios.framework */,
+				8904CB27A1AD0B3465E1E13E /* Pods_common_pod_hl_sport_ios_test.framework */,
+				2EC6CBE00A8C1815C8165C68 /* Pods_common_pod_hl_sport_ios_test_hl_sport_watch_test_Watch_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B3442A62923A16300E8E8C2 /* hl_sport_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B3442BB2923A16400E8E8C2 /* Build configuration list for PBXNativeTarget "hl_sport_ios" */;
+			buildPhases = (
+				371B0D39D49702F9393DF7E7 /* [CP] Check Pods Manifest.lock */,
+				1B3442A32923A16300E8E8C2 /* Sources */,
+				1B3442A42923A16300E8E8C2 /* Frameworks */,
+				1B3442A52923A16300E8E8C2 /* Resources */,
+				508F4A11469CB51952F6420D /* [CP] Embed Pods Frameworks */,
+				67D8DBCE2C199E5300A8112E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67D8DBCD2C199E5300A8112E /* PBXTargetDependency */,
+			);
+			name = hl_sport_ios;
+			productName = hl_sport_ios;
+			productReference = 1B3442A72923A16300E8E8C2 /* hl_sport_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		675533A92BD2621700302452 /* hl_sport_watch_test Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675533D52BD2621900302452 /* Build configuration list for PBXNativeTarget "hl_sport_watch_test Watch App" */;
+			buildPhases = (
+				675533A62BD2621700302452 /* Sources */,
+				675533A72BD2621700302452 /* Frameworks */,
+				675533A82BD2621700302452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hl_sport_watch_test Watch App";
+			productName = "hl_sport_watch_test Watch App";
+			productReference = 675533AA2BD2621700302452 /* hl_sport_watch_test Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		675533B82BD2621900302452 /* hl_sport_watch_test Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675533D62BD2621900302452 /* Build configuration list for PBXNativeTarget "hl_sport_watch_test Watch AppTests" */;
+			buildPhases = (
+				675533B52BD2621900302452 /* Sources */,
+				675533B62BD2621900302452 /* Frameworks */,
+				675533B72BD2621900302452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				675533BB2BD2621900302452 /* PBXTargetDependency */,
+			);
+			name = "hl_sport_watch_test Watch AppTests";
+			productName = "hl_sport_watch_test Watch AppTests";
+			productReference = 675533B92BD2621900302452 /* hl_sport_watch_test Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		675533C22BD2621900302452 /* hl_sport_watch_test Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675533D72BD2621900302452 /* Build configuration list for PBXNativeTarget "hl_sport_watch_test Watch AppUITests" */;
+			buildPhases = (
+				675533BF2BD2621900302452 /* Sources */,
+				675533C02BD2621900302452 /* Frameworks */,
+				675533C12BD2621900302452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				675533C52BD2621900302452 /* PBXTargetDependency */,
+			);
+			name = "hl_sport_watch_test Watch AppUITests";
+			productName = "hl_sport_watch_test Watch AppUITests";
+			productReference = 675533C32BD2621900302452 /* hl_sport_watch_test Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		67D8DB972C19954F00A8112E /* hl_sport_watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D8DBC62C19954F00A8112E /* Build configuration list for PBXNativeTarget "hl_sport_watch Watch App" */;
+			buildPhases = (
+				67D8DB982C19954F00A8112E /* Sources */,
+				67D8DBC12C19954F00A8112E /* Frameworks */,
+				67D8DBC22C19954F00A8112E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hl_sport_watch Watch App";
+			productName = "hl_sport_watch_test Watch App";
+			productReference = 67D8DBC92C19954F00A8112E /* hl_sport_watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8C19DAF29DAB70900B0C661 /* hl_sport_ios_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C19DC529DAB70900B0C661 /* Build configuration list for PBXNativeTarget "hl_sport_ios_test" */;
+			buildPhases = (
+				B8C19DB029DAB70900B0C661 /* [CP] Check Pods Manifest.lock */,
+				B8C19DB129DAB70900B0C661 /* Sources */,
+				B8C19DB329DAB70900B0C661 /* Frameworks */,
+				B8C19DB529DAB70900B0C661 /* Resources */,
+				B8C19DC429DAB70900B0C661 /* [CP] Embed Pods Frameworks */,
+				675533CE2BD2621900302452 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				675533CC2BD2621900302452 /* PBXTargetDependency */,
+			);
+			name = hl_sport_ios_test;
+			productName = hl_sport_ios;
+			productReference = B8C19DC829DAB70900B0C661 /* hl_sport_ios_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B34429F2923A16300E8E8C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1B3442A62923A16300E8E8C2 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+					675533A92BD2621700302452 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					675533B82BD2621900302452 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 675533A92BD2621700302452;
+					};
+					675533C22BD2621900302452 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 675533A92BD2621700302452;
+					};
+				};
+			};
+			buildConfigurationList = 1B3442A22923A16300E8E8C2 /* Build configuration list for PBXProject "hl_sport_ios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+				ja,
+				de,
+				ru,
+				"pt-BR",
+				"pt-PT",
+				ko,
+				es,
+				fr,
+				it,
+			);
+			mainGroup = 1B34429E2923A16300E8E8C2;
+			productRefGroup = 1B3442A82923A16300E8E8C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B3442A62923A16300E8E8C2 /* hl_sport_ios */,
+				B8C19DAF29DAB70900B0C661 /* hl_sport_ios_test */,
+				67D8DB972C19954F00A8112E /* hl_sport_watch Watch App */,
+				675533A92BD2621700302452 /* hl_sport_watch_test Watch App */,
+				675533B82BD2621900302452 /* hl_sport_watch_test Watch AppTests */,
+				675533C22BD2621900302452 /* hl_sport_watch_test Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B3442A52923A16300E8E8C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3442B72923A16400E8E8C2 /* LaunchScreen.storyboard in Resources */,
+				30B35D0E294D669700DB7B86 /* InfoPlist.strings in Resources */,
+				670D51C02CB511CC005493D3 /* HarmonyOS_Sans_SC_Regular.ttf in Resources */,
+				6559085D294B17B500B5F0C8 /* D-DIN-PRO-600-SemiBold.otf in Resources */,
+				B87A4E7529E3ED2700D05445 /* AppLogo@2x.png in Resources */,
+				B87A4E7129E3ED2700D05445 /* AppLaunch@2x.png in Resources */,
+				1B3443102923A54C00E8E8C2 /* Localizable.strings in Resources */,
+				1B5A4CC4296917040075F60E /* device_list.json in Resources */,
+				1B3442B42923A16400E8E8C2 /* Assets.xcassets in Resources */,
+				B8C19DD929DAE63F00B0C661 /* GoogleService-Info.plist in Resources */,
+				1B3442B22923A16300E8E8C2 /* Main.storyboard in Resources */,
+				1B34432B2924B25100E8E8C2 /* config_modules.json in Resources */,
+				B87A4E7329E3ED2700D05445 /* AppLaunch@3x.png in Resources */,
+				B87A4E7729E3ED2700D05445 /* AppLogo@3x.png in Resources */,
+				1B34434B2925DD1A00E8E8C2 /* config.json in Resources */,
+				670D51C52CB511E5005493D3 /* HarmonyOS_Sans_SC_Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675533A82BD2621700302452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675533B42BD2621900302452 /* Preview Assets.xcassets in Resources */,
+				675533B12BD2621900302452 /* Assets.xcassets in Resources */,
+				67E462BC2C0427D3000FF956 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675533B72BD2621900302452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675533C12BD2621900302452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D8DBC22C19954F00A8112E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D8DBC32C19954F00A8112E /* Preview Assets.xcassets in Resources */,
+				67D8DBC42C19954F00A8112E /* Assets.xcassets in Resources */,
+				67D8DBC52C19954F00A8112E /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C19DB529DAB70900B0C661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670D51C62CB511E5005493D3 /* HarmonyOS_Sans_SC_Bold.ttf in Resources */,
+				B8C19DB629DAB70900B0C661 /* LaunchScreen.storyboard in Resources */,
+				B87A4E7229E3ED2700D05445 /* AppLaunch@2x.png in Resources */,
+				B8C19DDA29DAE64900B0C661 /* GoogleService-Info.plist in Resources */,
+				670D51C12CB511CC005493D3 /* HarmonyOS_Sans_SC_Regular.ttf in Resources */,
+				B87A4E7829E3ED2700D05445 /* AppLogo@3x.png in Resources */,
+				67A19B4A29ED5449006076C8 /* InfoPlist.strings in Resources */,
+				B8C19DB829DAB70900B0C661 /* D-DIN-PRO-600-SemiBold.otf in Resources */,
+				B8C19DB929DAB70900B0C661 /* Localizable.strings in Resources */,
+				B8C19DBB29DAB70900B0C661 /* device_list.json in Resources */,
+				B8C19DBC29DAB70900B0C661 /* Assets.xcassets in Resources */,
+				B8C19DDF29DBBA0E00B0C661 /* hl_sport_ios_test-Info.plist in Resources */,
+				B8C19DBE29DAB70900B0C661 /* Main.storyboard in Resources */,
+				B87A4E7429E3ED2700D05445 /* AppLaunch@3x.png in Resources */,
+				B87A4E7629E3ED2700D05445 /* AppLogo@2x.png in Resources */,
+				B8C19DC129DAB70900B0C661 /* config_modules.json in Resources */,
+				B8C19DC229DAB70900B0C661 /* config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		371B0D39D49702F9393DF7E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-common_pod-hl_sport_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		508F4A11469CB51952F6420D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-common_pod-hl_sport_ios/Pods-common_pod-hl_sport_ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-common_pod-hl_sport_ios/Pods-common_pod-hl_sport_ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-common_pod-hl_sport_ios/Pods-common_pod-hl_sport_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C19DB029DAB70900B0C661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-common_pod-hl_sport_ios_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C19DC429DAB70900B0C661 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-common_pod-hl_sport_ios_test/Pods-common_pod-hl_sport_ios_test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-common_pod-hl_sport_ios_test/Pods-common_pod-hl_sport_ios_test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-common_pod-hl_sport_ios_test/Pods-common_pod-hl_sport_ios_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B3442A32923A16300E8E8C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3442AB2923A16300E8E8C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675533A62BD2621700302452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675534042BD2832400302452 /* HomeView.swift in Sources */,
+				675534232BD2883100302452 /* SessionManager.swift in Sources */,
+				675534312BD2883F00302452 /* RootPresentationMode.swift in Sources */,
+				6755342F2BD2883F00302452 /* AttributedString+Tool.swift in Sources */,
+				675534072BD2832400302452 /* RecordView.swift in Sources */,
+				675534152BD2834D00302452 /* ResponseData.swift in Sources */,
+				67CC5DBA2BDFA9C0005A300B /* LPInstruction.swift in Sources */,
+				675533FE2BD2832400302452 /* ActivityRingsView.swift in Sources */,
+				675534022BD2832400302452 /* ElapsedTimeView.swift in Sources */,
+				675534082BD2832400302452 /* RemindView.swift in Sources */,
+				675534342BD2883F00302452 /* Toast.swift in Sources */,
+				6715F6A02BEE2AE400A1A3ED /* UUIDTool.swift in Sources */,
+				675534332BD2883F00302452 /* TextFileObservable.swift in Sources */,
+				675534012BD2832400302452 /* DeviceInfoView.swift in Sources */,
+				675534302BD2883F00302452 /* DeallocPrinter.swift in Sources */,
+				675534092BD2832400302452 /* SessionPagingView.swift in Sources */,
+				675534162BD2834D00302452 /* SaveSwimParam.swift in Sources */,
+				675534242BD2883100302452 /* NetworkManager.swift in Sources */,
+				675534142BD2834D00302452 /* MotionData.swift in Sources */,
+				67E0454F2BD928A300F5656B /* LPDeviceInfo.swift in Sources */,
+				675534062BD2832400302452 /* PromptView.swift in Sources */,
+				675533FF2BD2832400302452 /* ContentView.swift in Sources */,
+				675534052BD2832400302452 /* MetricsView.swift in Sources */,
+				67E462BE2C042D19000FF956 /* LPLanguage.swift in Sources */,
+				67E5710E2C15C7D30061FECA /* InterfaceController.swift in Sources */,
+				675534252BD2883100302452 /* WorkoutManager.swift in Sources */,
+				676CE0E12BFAF49A0010E10B /* EndAlertView.swift in Sources */,
+				67A4A55D2BF21B6F008D9561 /* UserCacheData.swift in Sources */,
+				675534002BD2832400302452 /* ControlsView.swift in Sources */,
+				675534322BD2883F00302452 /* RoundedCorners.swift in Sources */,
+				675533AD2BD2621800302452 /* hl_sport_watch_testApp.swift in Sources */,
+				67A4A55B2BF215B3008D9561 /* CacheManager.swift in Sources */,
+				675534122BD2834D00302452 /* Distance.swift in Sources */,
+				675534222BD2883100302452 /* BluetoothManager.swift in Sources */,
+				675534032BD2832400302452 /* GuideConfigView.swift in Sources */,
+				6755340B2BD2832400302452 /* SumupView.swift in Sources */,
+				675534362BD2883F00302452 /* View+Tool.swift in Sources */,
+				675534132BD2834D00302452 /* LiveData.swift in Sources */,
+				675534352BD2883F00302452 /* UIColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675533B52BD2621900302452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675533BE2BD2621900302452 /* hl_sport_watch_test_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675533BF2BD2621900302452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675533C82BD2621900302452 /* hl_sport_watch_test_Watch_AppUITests.swift in Sources */,
+				675533CA2BD2621900302452 /* hl_sport_watch_test_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D8DB982C19954F00A8112E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D8DB992C19954F00A8112E /* HomeView.swift in Sources */,
+				67D8DB9A2C19954F00A8112E /* SessionManager.swift in Sources */,
+				67D8DB9B2C19954F00A8112E /* RootPresentationMode.swift in Sources */,
+				67D8DB9C2C19954F00A8112E /* AttributedString+Tool.swift in Sources */,
+				67D8DB9D2C19954F00A8112E /* RecordView.swift in Sources */,
+				67D8DB9E2C19954F00A8112E /* ResponseData.swift in Sources */,
+				67D8DB9F2C19954F00A8112E /* LPInstruction.swift in Sources */,
+				67D8DBA02C19954F00A8112E /* ActivityRingsView.swift in Sources */,
+				67D8DBA12C19954F00A8112E /* ElapsedTimeView.swift in Sources */,
+				67D8DBA22C19954F00A8112E /* RemindView.swift in Sources */,
+				67D8DBA32C19954F00A8112E /* Toast.swift in Sources */,
+				67D8DBA42C19954F00A8112E /* UUIDTool.swift in Sources */,
+				67D8DBA52C19954F00A8112E /* TextFileObservable.swift in Sources */,
+				67D8DBA62C19954F00A8112E /* DeviceInfoView.swift in Sources */,
+				67D8DBA72C19954F00A8112E /* DeallocPrinter.swift in Sources */,
+				67D8DBA82C19954F00A8112E /* SessionPagingView.swift in Sources */,
+				67D8DBA92C19954F00A8112E /* SaveSwimParam.swift in Sources */,
+				67D8DBAA2C19954F00A8112E /* NetworkManager.swift in Sources */,
+				67D8DBAB2C19954F00A8112E /* MotionData.swift in Sources */,
+				67D8DBAC2C19954F00A8112E /* LPDeviceInfo.swift in Sources */,
+				67D8DBAD2C19954F00A8112E /* PromptView.swift in Sources */,
+				67D8DBAF2C19954F00A8112E /* ContentView.swift in Sources */,
+				67D8DBB02C19954F00A8112E /* MetricsView.swift in Sources */,
+				67D8DBB12C19954F00A8112E /* LPLanguage.swift in Sources */,
+				67D8DBB22C19954F00A8112E /* InterfaceController.swift in Sources */,
+				67D8DBB32C19954F00A8112E /* WorkoutManager.swift in Sources */,
+				67D8DBB42C19954F00A8112E /* EndAlertView.swift in Sources */,
+				67D8DBB52C19954F00A8112E /* UserCacheData.swift in Sources */,
+				67D8DBB62C19954F00A8112E /* ControlsView.swift in Sources */,
+				67D8DBB72C19954F00A8112E /* RoundedCorners.swift in Sources */,
+				67D8DBB82C19954F00A8112E /* hl_sport_watch_testApp.swift in Sources */,
+				67D8DBB92C19954F00A8112E /* CacheManager.swift in Sources */,
+				67D8DBBA2C19954F00A8112E /* Distance.swift in Sources */,
+				67D8DBBB2C19954F00A8112E /* BluetoothManager.swift in Sources */,
+				67D8DBBC2C19954F00A8112E /* GuideConfigView.swift in Sources */,
+				67D8DBBD2C19954F00A8112E /* SumupView.swift in Sources */,
+				67D8DBBE2C19954F00A8112E /* View+Tool.swift in Sources */,
+				67D8DBBF2C19954F00A8112E /* LiveData.swift in Sources */,
+				67D8DBC02C19954F00A8112E /* UIColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C19DB129DAB70900B0C661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C19DB229DAB70900B0C661 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		675533BB2BD2621900302452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 675533A92BD2621700302452 /* hl_sport_watch_test Watch App */;
+			targetProxy = 675533BA2BD2621900302452 /* PBXContainerItemProxy */;
+		};
+		675533C52BD2621900302452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 675533A92BD2621700302452 /* hl_sport_watch_test Watch App */;
+			targetProxy = 675533C42BD2621900302452 /* PBXContainerItemProxy */;
+		};
+		675533CC2BD2621900302452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 675533A92BD2621700302452 /* hl_sport_watch_test Watch App */;
+			targetProxy = 675533CB2BD2621900302452 /* PBXContainerItemProxy */;
+		};
+		67D8DBCD2C199E5300A8112E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67D8DB972C19954F00A8112E /* hl_sport_watch Watch App */;
+			targetProxy = 67D8DBCC2C199E5300A8112E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B3442B02923A16300E8E8C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B3442B12923A16300E8E8C2 /* Base */,
+				1B34430E2923A53F00E8E8C2 /* zh-Hans */,
+				655BEAAA294824820066719F /* zh-Hant */,
+				B8F6EE5A29BF34C900ABC18A /* ja */,
+				67FA1EA72A7BB64200ED7FE6 /* de */,
+				670C170F2B2073FC003B6D51 /* ru */,
+				670C17192B2074CB003B6D51 /* pt-BR */,
+				676CDAB52B4BE7E10094EF07 /* pt-PT */,
+				676CDABA2B4BE7EB0094EF07 /* ko */,
+				678942EA2B5120B7002C8BD6 /* es */,
+				678942EF2B5120C7002C8BD6 /* fr */,
+				678942F42B5120E4002C8BD6 /* it */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B3442B52923A16400E8E8C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B3442B62923A16400E8E8C2 /* Base */,
+				1B34430F2923A54000E8E8C2 /* zh-Hans */,
+				655BEAAB294824830066719F /* zh-Hant */,
+				30985D5E296EC40400C18732 /* en */,
+				B8F6EE5B29BF34CA00ABC18A /* ja */,
+				67FA1EA82A7BB64200ED7FE6 /* de */,
+				670C17102B2073FC003B6D51 /* ru */,
+				670C171A2B2074CC003B6D51 /* pt-BR */,
+				676CDAB62B4BE7E10094EF07 /* pt-PT */,
+				676CDABB2B4BE7EB0094EF07 /* ko */,
+				678942EB2B5120B7002C8BD6 /* es */,
+				678942F02B5120C7002C8BD6 /* fr */,
+				678942F52B5120E4002C8BD6 /* it */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1B3443122923A54C00E8E8C2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B3443112923A54C00E8E8C2 /* en */,
+				1B3443132923A55100E8E8C2 /* zh-Hans */,
+				655BEAAC294824940066719F /* zh-Hant */,
+				B8F6EE5C29BF34CA00ABC18A /* ja */,
+				67FA1EAB2A7BB64300ED7FE6 /* de */,
+				670C17132B2073FD003B6D51 /* ru */,
+				670C171D2B2074CC003B6D51 /* pt-BR */,
+				676CDAB92B4BE7E10094EF07 /* pt-PT */,
+				676CDABE2B4BE7EC0094EF07 /* ko */,
+				678942EE2B5120B7002C8BD6 /* es */,
+				678942F32B5120C7002C8BD6 /* fr */,
+				678942F82B5120E4002C8BD6 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		30B35D10294D669700DB7B86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B35D0F294D669700DB7B86 /* en */,
+				30B35D11294D669B00DB7B86 /* zh-Hans */,
+				30B35D12294D669C00DB7B86 /* zh-Hant */,
+				B8F6EE5D29BF34CA00ABC18A /* ja */,
+				67FA1EA92A7BB64200ED7FE6 /* de */,
+				670C17112B2073FC003B6D51 /* ru */,
+				670C171B2B2074CC003B6D51 /* pt-BR */,
+				676CDAB72B4BE7E10094EF07 /* pt-PT */,
+				676CDABC2B4BE7EB0094EF07 /* ko */,
+				678942EC2B5120B7002C8BD6 /* es */,
+				678942F12B5120C7002C8BD6 /* fr */,
+				678942F62B5120E4002C8BD6 /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67A19B4829ED5449006076C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A19B4929ED5449006076C8 /* en */,
+				67A19B4B29ED5456006076C8 /* ja */,
+				67A19B4C29ED5465006076C8 /* zh-Hans */,
+				67A19B4D29ED5470006076C8 /* zh-Hant */,
+				67FA1EAA2A7BB64200ED7FE6 /* de */,
+				670C17122B2073FD003B6D51 /* ru */,
+				670C171C2B2074CC003B6D51 /* pt-BR */,
+				676CDAB82B4BE7E10094EF07 /* pt-PT */,
+				676CDABD2B4BE7EB0094EF07 /* ko */,
+				678942ED2B5120B7002C8BD6 /* es */,
+				678942F22B5120C7002C8BD6 /* fr */,
+				678942F72B5120E4002C8BD6 /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B3442B92923A16400E8E8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		1B3442BA2923A16400E8E8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		1B3442BC2923A16400E8E8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67177946B4CBF97A6F851F55 /* Pods-common_pod-hl_sport_ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = hl_sport_ios/Sources/InfoPlist/hl_sport_ios.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1060000;
+				DEVELOPMENT_TEAM = 2RRYB9KG4A;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hl_sport_ios/Sources/InfoPlist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = hl_sport_ios;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSCameraUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSContactsUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "本地化配置";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.6.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PRODUCT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxxxxxxxx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1B3442BD2923A16400E8E8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292CC890A1A4113FFB1A5A37 /* Pods-common_pod-hl_sport_ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = hl_sport_ios/Sources/InfoPlist/hl_sport_ios.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1060000;
+				DEVELOPMENT_TEAM = 2RRYB9KG4A;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hl_sport_ios/Sources/InfoPlist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = hl_sport_ios;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSCameraUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSContactsUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "本地化配置";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.6.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PRODUCT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxxxxxxxx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		675533CF2BD2621900302452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hl_sport_watch_test Watch App/hl_sport_watch_test Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hl_sport_watch_test Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 83G6F64PQ6;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hl-sport-watch-test-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Holosport(beta)";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "需要使用您的蓝牙用于设备连接等功能";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "允许 app 记录数据到健康中";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "允许 app 获取健康中的数据";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "允许 app 更新健康中的数据";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.energyball.holo.sport.app-ios.test";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.energyball.holo.sport.app-ios.test.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		675533D02BD2621900302452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hl_sport_watch_test Watch App/hl_sport_watch_test Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hl_sport_watch_test Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 83G6F64PQ6;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hl-sport-watch-test-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Holosport(beta)";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "需要使用您的蓝牙用于设备连接等功能";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "允许 app 记录数据到健康中";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "允许 app 获取健康中的数据";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "允许 app 更新健康中的数据";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.energyball.holo.sport.app-ios.test";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.energyball.holo.sport.app-ios.test.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		675533D12BD2621900302452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RRYB9KG4A;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gl.hl-sport-watch-test-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hl_sport_watch_test Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hl_sport_watch_test Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		675533D22BD2621900302452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RRYB9KG4A;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gl.hl-sport-watch-test-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hl_sport_watch_test Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hl_sport_watch_test Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		675533D32BD2621900302452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RRYB9KG4A;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gl.hl-sport-watch-test-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "hl_sport_watch_test Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		675533D42BD2621900302452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RRYB9KG4A;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gl.hl-sport-watch-test-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "hl_sport_watch_test Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		67D8DBC72C19954F00A8112E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hl_sport_watch_test Watch App/hl_sport_watch_test Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hl_sport_watch_test Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RRYB9KG4A;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hl_sport_watch_Watch_App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Holosport;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "需要使用您的蓝牙用于设备连接等功能";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "允许 app 记录数据到健康中用于显示运动时候数据";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "允许 app 获取健康中的数据用于显示运动时候数据";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "允许 app 更新健康中的数据用于显示运动时候数据";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.energyball.holo.sport.app-ios";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.energyball.holo.sport.app-ios.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		67D8DBC82C19954F00A8112E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hl_sport_watch_test Watch App/hl_sport_watch_test Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hl_sport_watch_test Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RRYB9KG4A;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hl_sport_watch_Watch_App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Holosport;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "需要使用您的蓝牙用于设备连接等功能";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "允许 app 记录数据到健康中用于显示运动时候数据";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "允许 app 获取健康中的数据用于显示运动时候数据";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "允许 app 更新健康中的数据用于显示运动时候数据";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.energyball.holo.sport.app-ios";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.energyball.holo.sport.app-ios.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		B8C19DC629DAB70900B0C661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A1481AF11F262B7828366B /* Pods-common_pod-hl_sport_ios_test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = hl_sport_ios/Sources/InfoPlist_test/hl_sport_ios_test.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1060000;
+				DEVELOPMENT_TEAM = 83G6F64PQ6;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hl_sport_ios/Sources/InfoPlist_test/hl_sport_ios_test-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hl_sport_ios(beta)";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSCameraUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSContactsUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "本地化配置";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.6.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D TEST";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.energyball.holo.sport.app-ios.test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B8C19DC729DAB70900B0C661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B574C9835164240B00B247 /* Pods-common_pod-hl_sport_ios_test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = hl_sport_ios/Sources/InfoPlist_test/hl_sport_ios_test.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1060000;
+				DEVELOPMENT_TEAM = 83G6F64PQ6;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hl_sport_ios/Sources/InfoPlist_test/hl_sport_ios_test-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hl_sport_ios(beta)";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSCameraUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSContactsUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "本地化配置";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "本地化配置";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.6.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D TEST";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.energyball.holo.sport.app-ios.test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B3442A22923A16300E8E8C2 /* Build configuration list for PBXProject "hl_sport_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3442B92923A16400E8E8C2 /* Debug */,
+				1B3442BA2923A16400E8E8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B3442BB2923A16400E8E8C2 /* Build configuration list for PBXNativeTarget "hl_sport_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3442BC2923A16400E8E8C2 /* Debug */,
+				1B3442BD2923A16400E8E8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		675533D52BD2621900302452 /* Build configuration list for PBXNativeTarget "hl_sport_watch_test Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675533CF2BD2621900302452 /* Debug */,
+				675533D02BD2621900302452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		675533D62BD2621900302452 /* Build configuration list for PBXNativeTarget "hl_sport_watch_test Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675533D12BD2621900302452 /* Debug */,
+				675533D22BD2621900302452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		675533D72BD2621900302452 /* Build configuration list for PBXNativeTarget "hl_sport_watch_test Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675533D32BD2621900302452 /* Debug */,
+				675533D42BD2621900302452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D8DBC62C19954F00A8112E /* Build configuration list for PBXNativeTarget "hl_sport_watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D8DBC72C19954F00A8112E /* Debug */,
+				67D8DBC82C19954F00A8112E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8C19DC529DAB70900B0C661 /* Build configuration list for PBXNativeTarget "hl_sport_ios_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C19DC629DAB70900B0C661 /* Debug */,
+				B8C19DC729DAB70900B0C661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B34429F2923A16300E8E8C2 /* Project object */;
+}

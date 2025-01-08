@@ -1,0 +1,6 @@
+framework module Pods_LPThirdPlatformKit_Example {
+  umbrella header "Pods-LPThirdPlatformKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
