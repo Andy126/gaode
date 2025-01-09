@@ -55,20 +55,19 @@ TODO: Add long description of the pod here.
 
       #依赖的模块
 #      ss.dependency 'LPThirdPlatformKit/Auth/Core'
-      ss.dependency 'LPThirdPlatformKit/AMMapSDK'
+      ss.dependency 'LPThirdPlatformKit/AMapLocationSDK'
     end
  
   end
     
     #存放高德地图的相关SDK（framwork、a）
-    s.subspec 'AMMapSDK' do |ss|
+    s.subspec 'AMapLocationSDK' do |ss|
 
 #      #pod源文件，显示地图头文件，暴露  LPThirdPlatformKit/AMMapSDK/**/*Kit.h
-#      ss.source_files = 'LPThirdPlatformKit/AMMapSDK/MAMapKit.framework/Headers/MAMapKit.h'
-
+#      ss.source_files = 'LPThirdPlatformKit/AMapLocationSDK/AMapLocationKit.framework/**/AMapLocationKit.h'
       #依赖的第三方库
       ss.vendored_frameworks = [
-      'LPThirdPlatformKit/AMMapSDK/**/*.framework',
+      'LPThirdPlatformKit/AMapLocationSDK/**/*.framework',
       ]
       #依赖的系统库
       ss.frameworks = [
@@ -87,7 +86,7 @@ TODO: Add long description of the pod here.
 #      #资源文件
       ss.resources = [
 #      'LPThirdPlatformKit/AMMapSDK/AMapNaviKit.framework/*.bundle',
-      'LPThirdPlatformKit/AMMapSDK/MAMapKit.framework/AMap.bundle'
+#      'LPThirdPlatformKit/AMMapSDK/MAMapKit.framework/AMap.bundle'
       ]
 
 

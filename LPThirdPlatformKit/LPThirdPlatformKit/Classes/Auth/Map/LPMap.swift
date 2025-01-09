@@ -5,13 +5,9 @@
 //  Created by gl on 2023/6/7.
 //
 
-import AMapSearchKit
-import MAMapKit
+import AMapFoundationKit
+import AMapLocationKit
 
-//import LPNetwork
-//import Alamofire
-//import AuthenticationServices
-//import LPCommon
 
 public class LPMap: UIViewController{
     
@@ -22,18 +18,11 @@ public class LPMap: UIViewController{
         AMapServices.shared().apiKey = "46d6324d9cb9e82fa42e144c4d3f0408"
         AMapServices.shared().enableHTTPS = true
         
-        var search = AMapSearchAPI()
-//        MAMapView.updatePrivacyShow(.didShow, privacyInfo: .didContain)
-//        MAMapView.updatePrivacyAgree(.didAgree)
+        //添加定位时会报错
+        var locatopm = AMapLocationManager()
         
         view.backgroundColor = .red
         AMapServices.shared().enableHTTPS = true
-        let mapView = MAMapView.init(frame: self.view.frame)
-        mapView.showsUserLocation = true
-        mapView.userTrackingMode =  .follow
-        mapView.zoomLevel = 16
-        
-        view.addSubview(mapView)
     }
     
 }
